@@ -125,4 +125,3 @@ def num_points_scored(name)
   end
 end
 
- num_points_scored('Brendan Haywood')
