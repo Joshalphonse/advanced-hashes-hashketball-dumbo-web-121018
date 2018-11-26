@@ -116,7 +116,12 @@ def game_hash
       ]
     }
   }
+end
 
+def num_points_scored(nm)
+  all_players = game_hash[:home][:players] + game_hash[:away][:players]
+  all_players.find { |p| p[:player_name] == nm }[:points]
+end
 
 
 
