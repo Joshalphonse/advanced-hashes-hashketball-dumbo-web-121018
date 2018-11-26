@@ -3,11 +3,11 @@ require 'pry'
 def game_hash
   {
     home: {
-      team_name: "Brooklyn Nets",
-      colors: ["Black", "White"],
+      team_name:"Brooklyn Nets",
+      colors:["Black", "White"],
       players: [
         {
-          player_name: "Alan Anderson",
+          player_name:"Alan Anderson",
           number: 0,
           shoe: 16,
           points: 22,
@@ -37,7 +37,7 @@ def game_hash
           blocks: 1,
           slam_dunks: 15
         }, {
-          player_name: "Mason Plumlee",
+          player_name:"Mason Plumlee",
           number: 1,
           shoe: 19,
           points: 26,
@@ -60,7 +60,7 @@ def game_hash
       ]
     },
     away: {
-      team_name: "Charlotte Hornets",
+      team_name:"Charlotte Hornets",
       colors: ["Turquoise", "Purple"],
       players: [
         {
